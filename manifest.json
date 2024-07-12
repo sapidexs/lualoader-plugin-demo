@@ -1,12 +1,12 @@
 {
     "manifest_version": 1,
-    "name": "My Plugin Name",
+    "name": "lualoader-plugin-demo",
     "entry": "main.lua",
     "plugin_version": [
-        0,
+        1,
         0,
         0
     ],
-    "author": "My Name",
-    "description": "My Plugin Description"
+    "author": "odorajbotoj",
+    "description": "hello, world!"
 }

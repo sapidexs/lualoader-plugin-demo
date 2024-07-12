@@ -1,25 +1,25 @@
 {
     "format_version": 2,
-    "tooth": "my-plugin",
-    "version": "0.0.0",
+    "tooth": "github.com/sapidexs/lualoader-plugin-demo",
+    "version": "1.0.0",
     "info": {
-        "name": "My Plugin Name",
-        "description": "My Plugin Description",
-        "author": "My Name",
+        "name": "lualoader-plugin-demo",
+        "description": "hello, world!",
+        "author": "odorajbotoj",
         "tags": [
             "lualoader",
             "plugin"
         ]
     },
-    "asset_url": "My Asset Url",
+    "asset_url": "https://github.com/sapidexs/lualoader-plugin-demo/releases/download/v1.0.0/lualoader-plugin-demo.zip",
     "prerequisites": {
-        "github.com/sapidexs/lualoader": "My lualoader Dependency Version"
+        "github.com/sapidexs/lualoader": ">=1.0.0"
     },
     "files": {
         "place": [
             {
-                "src": "my-plugin/*",
-                "dest": "plugins/my-plugin/"
+                "src": "lualoader-plugin-demo/*",
+                "dest": "plugins/lualoader-plugin-demo/"
             }
         ]
     }
