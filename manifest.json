@@ -1,0 +1,12 @@
+{
+    "manifest_version": 1,
+    "name": "My Plugin Name",
+    "entry": "main.lua",
+    "plugin_version": [
+        0,
+        0,
+        0
+    ],
+    "author": "My Name",
+    "description": "My Plugin Description"
+}
